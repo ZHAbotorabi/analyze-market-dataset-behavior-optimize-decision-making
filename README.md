@@ -1,17 +1,17 @@
 # Analyze-market-dataset-behavior-optimize-decision-making
-1-	Understanding the Data and Analysis Objectives
+## 1-	Understanding the Data and Analysis Objectives
 Introduction:
 In this project, we analyzed Airbnb property data (airbnb.csv file – 84*27070) to explore pricing trends, customer demand, the impact of property features, clustering of listings, and other key insights.
 Dataset Structure:
-•	The dataset contains 84 attributes, including location, price, property type, number of rooms, user ratings, additional costs, and available amenities.
-•	This data helps us understand Airbnb market behavior and optimize decision-making.
+*	The dataset contains 84 attributes, including location, price, property type, number of rooms, user ratings, additional costs, and available amenities.
+*	This data helps us understand Airbnb market behavior and optimize decision-making.
 Analysis Objectives:
-•	Provide insights for better pricing strategies and property management.
-•	Identify seasonal and geographic demand trends.
-•	Examine how amenities impact price and guest experience.
-•	Recommend strategies to attract more customers and maximize revenue.
-________________________________________
-2-	Performed Analyses and Key Findings
+-	Provide insights for better pricing strategies and property management.
+- Identify seasonal and geographic demand trends.
+-	Examine how amenities impact price and guest experience.
+-	Recommend strategies to attract more customers and maximize revenue.
+
+## 2-	Performed Analyses and Key Findings
 Pricing Analysis and Patterns
 •	Most prices range between $50 and $300, but luxury properties can go up to $2,000 per night.
 •	Factors like the number of rooms, accommodation capacity, cleaning fees, and location have a direct impact on price.
@@ -30,8 +30,7 @@ Seasonal Trends and Market Demand
 •	Summer is the peak season for Airbnb, with the highest demand and increased pricing.
 •	Winter is typically a low-demand season, leading to price drops.
 
-
-3-	Some AI/ML Model Implementation
+## 3-	Some AI/ML Model Implementation
 The following machine learning models have been implemented to analyze Airbnb listings:
 1.	Price Prediction
 o	Uses Random Forest Regressor to estimate listing prices based on features such as number of rooms, location, and amenities.
